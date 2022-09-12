@@ -12,7 +12,27 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Come up with questions"
+        message: "Description"
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "Installation Instructions"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Usage information"
+    },
+    {
+        type: "input",
+        name: "contributing",
+        message: "Contributing"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Tests"
     },
     {
         type: "list",
@@ -22,10 +42,8 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
+// Function to initialize app and write README file
+// Error prompt
 function init() {
     inquirer.prompt(questions).then(data=>{
         fs.writeFileSync("README.md", generateMarkdown (data), err => {
@@ -41,3 +59,13 @@ init();
 
 
 //github and email question and throw the data to the questions section in generate markdown
+
+//title of my project and sections entitled 
+//*******setup Description, 
+//*******Table of Contents, 
+//*******Installation, 
+//*******Usage, 
+//setup License, 
+//*******Contributing, 
+//*******Tests, and 
+//*******Questions
