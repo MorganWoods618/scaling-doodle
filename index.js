@@ -54,18 +54,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-
-
-
-//github and email question and throw the data to the questions section in generate markdown
-
-//title of my project and sections entitled 
-//*******setup Description, 
-//*******Table of Contents, 
-//*******Installation, 
-//*******Usage, 
-//setup License, 
-//*******Contributing, 
-//*******Tests, and 
-//*******Questions

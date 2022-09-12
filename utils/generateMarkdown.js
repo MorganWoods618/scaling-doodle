@@ -30,8 +30,8 @@ ${data.description}
 ${data.installation}
 ## Usage
 ${data.usage}
-## Contributors
-${data.contributors}
+## Contributing
+${data.contributing}
 ## Tests
 ${data.tests}
 ## License
